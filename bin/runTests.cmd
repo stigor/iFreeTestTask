@@ -1,14 +1,13 @@
-SET rootPath=D:\Selenium\workspace\iFreeTestTask
-
-SET libPath=%rootPath%\lib
-
-SET webdriverChromeDriver=%rootPath%\bin\chromedriver.exe
-
-SET baseURL=http://ui.moneytapp.vas61t.test.i-free.ru
+@echo off
 
 SET login=stigorv@gmail.com
-
 SET password=iFree12345
+SET baseURL=http://ui.moneytapp.vas61t.test.i-free.ru
+
+SET rootPath=%~dp0
+SET rootPath=%rootPath:~0,-4%
+SET libPath=%rootPath%\lib
+SET webdriverChromeDriver=%rootPath%\bin\chromedriver.exe
 
 rem webdriver options: chrome|firefox
 SET webdriver=chrome

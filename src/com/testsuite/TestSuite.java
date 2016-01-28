@@ -17,8 +17,8 @@ import com.core.MyWebDriver;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-  com.testssuite.testcases.TestAddAppPositive.class,
-  com.testssuite.testcases.TestAddAppNegative.class,
+  com.testcases.TestAddAppPositive.class,
+  com.testcases.TestAddAppNegative.class,
 })
 
 public class TestSuite {
@@ -28,9 +28,9 @@ public class TestSuite {
   public static void setUp() {
     Logger.toLog( "Start test suite" );
     
-    /*
     // Use ONLY for debugging
-    System.setProperty("webdriver", "firefox");
+    /*
+    System.setProperty("webdriver", "chrome");
     System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\selenium-2.49.1\\chromedriver.exe");
     System.setProperty("baseURL", "http://ui.moneytapp.vas61t.test.i-free.ru");
     System.setProperty("rootPath", "D:\\Selenium\\workspace\\iFreeTestTask");
