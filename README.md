@@ -14,7 +14,11 @@ Need to create automatic tests (Selenium+Java) for "Add New App" dialog on this 
 Edit bin\runTests.cmd file.
 Set correct login, password and base URL if required.
 
+<<<<<<< HEAD
 Then just launch runTests.cmd from bin folder:
+=======
+Then just launch runTests.cmd:
+>>>>>>> 75945e3bb9089d58b4075d1ad3e9213e7983e654
 
 ```bash
 runTests.cmd
